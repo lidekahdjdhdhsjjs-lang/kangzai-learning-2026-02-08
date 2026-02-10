@@ -1,0 +1,86 @@
+{
+  "records": [],
+  "performanceLog": [
+    {
+      "timestamp": "2026-02-10T15:01:53.990Z",
+      "operation": "search",
+      "duration": 5,
+      "success": true,
+      "metadata": {
+        "query": "test"
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:01:53.993Z",
+      "operation": "search",
+      "duration": 3,
+      "success": true,
+      "metadata": {
+        "query": "AI"
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:01:53.993Z",
+      "operation": "search",
+      "duration": 8,
+      "success": false,
+      "metadata": {
+        "query": "error"
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:01:53.993Z",
+      "operation": "learn",
+      "duration": 5000,
+      "success": true,
+      "metadata": {
+        "source": "github"
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:02:48.389Z",
+      "operation": "interaction",
+      "duration": 5,
+      "success": true,
+      "metadata": {
+        "type": "github",
+        "queryLength": 13
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:02:48.390Z",
+      "operation": "interaction",
+      "duration": 5,
+      "success": true,
+      "metadata": {
+        "type": "music",
+        "queryLength": 8
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:02:48.391Z",
+      "operation": "interaction",
+      "duration": 5,
+      "success": true,
+      "metadata": {
+        "type": "status",
+        "queryLength": 9
+      }
+    }
+  ],
+  "improvements": [
+    {
+      "timestamp": "2026-02-10T15:01:53.994Z",
+      "changes": [
+        {
+          "type": "retrieval",
+          "change": "maxResults increased",
+          "reason": "success rate low"
+        }
+      ],
+      "trigger": "auto_optimize"
+    }
+  ],
+  "version": "1.0.0",
+  "createdAt": "2026-02-10T15:01:53.988Z"
+}

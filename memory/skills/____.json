@@ -1,0 +1,15 @@
+{
+  "name": "测试技能",
+  "steps": [
+    {
+      "action": "type",
+      "text": "测试"
+    },
+    {
+      "action": "wait",
+      "ms": 500
+    }
+  ],
+  "createdAt": "2026-02-10T16:30:45.227Z",
+  "usageCount": 1
+}

@@ -1,0 +1,97 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2026-02-10T15:02:48.387Z",
+      "channel": "discord",
+      "duration": 0
+    },
+    {
+      "timestamp": "2026-02-10T15:02:48.389Z",
+      "channel": "discord",
+      "duration": 0
+    },
+    {
+      "timestamp": "2026-02-10T15:02:48.390Z",
+      "channel": "discord",
+      "duration": 0
+    }
+  ],
+  "queries": [
+    {
+      "query": "今天学习了什么",
+      "type": "learning",
+      "tags": [
+        "AI",
+        "memory"
+      ],
+      "timestamp": "2026-02-10T15:01:06.027Z",
+      "hour": 23
+    },
+    {
+      "query": "播放音乐",
+      "type": "music",
+      "tags": [
+        "entertainment"
+      ],
+      "timestamp": "2026-02-10T15:01:06.028Z",
+      "hour": 23
+    },
+    {
+      "query": "GitHub趋势",
+      "type": "github",
+      "tags": [
+        "tech",
+        "trending"
+      ],
+      "timestamp": "2026-02-10T15:01:06.028Z",
+      "hour": 23
+    },
+    {
+      "query": "今天GitHub有什么趋势",
+      "type": "github",
+      "tags": [
+        "tech",
+        "trending"
+      ],
+      "timestamp": "2026-02-10T15:02:48.389Z",
+      "hour": 23
+    },
+    {
+      "query": "播放音乐放松一下",
+      "type": "music",
+      "tags": [
+        "entertainment"
+      ],
+      "timestamp": "2026-02-10T15:02:48.390Z",
+      "hour": 23
+    },
+    {
+      "query": "我的项目进度怎么样",
+      "type": "status",
+      "tags": [
+        "project"
+      ],
+      "timestamp": "2026-02-10T15:02:48.391Z",
+      "hour": 23
+    }
+  ],
+  "activeHours": {
+    "23": 6
+  },
+  "queryTypes": {
+    "learning": 1,
+    "music": 2,
+    "github": 2,
+    "status": 1
+  },
+  "interests": [
+    "AI",
+    "memory",
+    "entertainment",
+    "tech",
+    "trending",
+    "project"
+  ],
+  "lastActive": "2026-02-10T15:02:48.391Z",
+  "createdAt": "2026-02-10T15:01:06.025Z"
+}

@@ -1,0 +1,21 @@
+{
+  "retrieval": {
+    "maxResults": 6,
+    "timeout": 10000,
+    "cacheEnabled": true
+  },
+  "learning": {
+    "cycleInterval": 1800000,
+    "maxRetries": 3,
+    "parallelWorkers": 2
+  },
+  "prediction": {
+    "confidenceThreshold": 0.5,
+    "maxPredictions": 3
+  },
+  "evolution": {
+    "autoOptimize": true,
+    "checkInterval": 3600000,
+    "minImprovement": 0.05
+  }
+}

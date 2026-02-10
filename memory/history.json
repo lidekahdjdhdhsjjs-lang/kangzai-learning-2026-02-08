@@ -1,0 +1,69 @@
+[
+  {
+    "type": "press",
+    "data": {
+      "key": "enter"
+    },
+    "timestamp": 1770741043214
+  },
+  {
+    "type": "type",
+    "data": {
+      "text": "开微信",
+      "enter": true
+    },
+    "timestamp": 1770741043215
+  },
+  {
+    "type": "openApp",
+    "data": {
+      "appName": "开微信"
+    },
+    "timestamp": 1770741044533
+  },
+  {
+    "type": "press",
+    "data": {
+      "key": "enter"
+    },
+    "timestamp": 1770741044920
+  },
+  {
+    "type": "type",
+    "data": {
+      "text": "入Hello World",
+      "enter": true
+    },
+    "timestamp": 1770741044921
+  },
+  {
+    "type": "press",
+    "data": {
+      "key": "enter"
+    },
+    "timestamp": 1770741045305
+  },
+  {
+    "type": "type",
+    "data": {
+      "text": "type",
+      "enter": true
+    },
+    "timestamp": 1770741045306
+  },
+  {
+    "type": "press",
+    "data": {
+      "key": "enter"
+    },
+    "timestamp": 1770741046200
+  },
+  {
+    "type": "type",
+    "data": {
+      "text": "wait",
+      "enter": true
+    },
+    "timestamp": 1770741046201
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "key": "optimization-suggestions",
+  "data": {
+    "suggestions": [
+      "可以考虑使用缓存减少重复计算",
+      "大文件可以考虑拆分",
+      "定期清理无用代码"
+    ],
+    "timestamp": 1770741379938
+  },
+  "timestamp": 1770741379938
+}
