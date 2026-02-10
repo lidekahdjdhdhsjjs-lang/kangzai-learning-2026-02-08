@@ -9,7 +9,10 @@ const fs = require('fs');
 const REPO_DIR = 'C:\\Users\\lidek\\digital-evolution';
 const GITHUB_USER = 'lidekahdjdhdhsjjs-lang';
 const REPO_NAME = 'kangzai-learning-2026-02-08';
-const TOKEN = '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';
+// Token从环境变量获取，或在运行前设置
+// Windows: $env:GITHUB_TOKEN="ghp_xxx"
+// Linux/Mac: export GITHUB_TOKEN="ghp_xxx"
+const TOKEN = process.env.GITHUB_TOKEN || '';
 
 const REMOTE_URL = `https://${GITHUB_USER}:${TOKEN}@github.com/${GITHUB_USER}/${REPO_NAME}.git`;
 
