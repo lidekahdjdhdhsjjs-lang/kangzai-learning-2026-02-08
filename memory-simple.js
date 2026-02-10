@@ -1,47 +1,48 @@
 #!/usr/bin/env node
 /**
- * 康仔记忆系统 - 简单向量检索 v6 (优化中文分词)
+ * 康仔记忆系统 - 简单向量检索 v7 (Parse, Don't Validate优化版)
  */
 
 const path = require('path');
 const fs = require('fs');
 
-// 提取关键词 - 优化版
+// 停用词 - 一次性定义
+const STOP_WORDS = new Set([
+  // 中文停用词
+  '的', '是', '了', '在', '和', '与', '或', '等', '这', '那', '有', '没有', '不', '也', '都',
+  '就', '要', '会', '可以', '能够', '于', '把', '被', '为', '以', '之', '其', '但', '却',
+  '我们', '你们', '他们', '自己', '什么', '怎么',
+  '致力于', '实现', '支持', '使用', '目标', '响应', '时间', '小于',
+  // 英文停用词
+  'the', 'is', 'a', 'of', 'and', 'to', 'in', 'that', 'it', 'for', 'with'
+]);
+
+// 提取关键词 - Parse模式：直接解析，不重复验证
 function extractKeywords(text) {
-  const stopWords = new Set([
-    '的', '是', '了', '在', '和', '与', '或', '等', '这', '那', '有', '没有', '不', '也', '都',
-    '就', '要', '会', '可以', '能够', '于', '把', '被', '为', '以', '之', '其', '但', '却',
-    '我们', '你们', '他们', '自己', '什么', '怎么',
-    '致力于', '实现', '支持', '使用', '目标', '响应', '时间', '小于',
-    'the', 'is', 'a', 'of', 'and', 'to', 'in', 'that', 'it', 'for', 'with'
-  ]);
+  const words = new Set();
+  const lower = text.toLowerCase();
   
-  const words = [];
-  const textLower = text.toLowerCase();
+  // 一次性解析英文
+  lower.match(/[a-z]{2,}/g)?.forEach(w => {
+    if (!STOP_WORDS.has(w)) words.add(w);
+  });
   
-  // 提取英文单词
-  const englishWords = textLower.match(/[a-z]+/g) || [];
-  words.push(...englishWords.filter(w => w.length >= 2 && !stopWords.has(w)));
+  // 一次性解析中文
+  const chinese = text.replace(/[a-z0-9\s]/g, '');
+  const len = chinese.length;
   
-  // 提取中文2-4字词
-  const chineseText = text.replace(/[a-z0-9\s]/gi, '');
-  for (let i = 0; i < chineseText.length - 1; i++) {
-    // 2字词
-    let w2 = chineseText.substring(i, i + 2);
-    if (!stopWords.has(w2) && w2.length === 2) words.push(w2);
-    // 3字词（重叠）
-    if (i + 3 <= chineseText.length) {
-      let w3 = chineseText.substring(i, i + 3);
-      if (!stopWords.has(w3) && !words.includes(w3)) words.push(w3);
-    }
-    // 4字词
-    if (i + 4 <= chineseText.length) {
-      let w4 = chineseText.substring(i, i + 4);
-      if (!stopWords.has(w4) && !words.includes(w4)) words.push(w4);
+  if (len < 2) return [...words];
+  
+  const seen = new Set();
+  for (let i = 0; i < len - 1; i++) {
+    const w = chinese.substring(i, i + 2);
+    if (!STOP_WORDS.has(w) && !seen.has(w)) {
+      words.add(w);
+      seen.add(w);
     }
   }
   
-  return [...new Set(words)];
+  return [...words];
 }
 
 function jaccardSimilarity(k1, k2) {
