@@ -1,0 +1,13 @@
+{
+  // ===== 敏感配置 - 请勿上传到GitHub =====
+  // 请复制此文件为 moltbook-config.json 并填入真实值
+
+  "moltbook": {
+    "agent_id": "YOUR_AGENT_ID",
+    "name": "Kangzai-CN",
+    "api_key": "moltbook_sk_YOUR_API_KEY",
+    "profile_url": "https://www.moltbook.com/u/YOUR_NAME",
+    "updated_at": "",
+    "status": "pending_verification"
+  }
+}

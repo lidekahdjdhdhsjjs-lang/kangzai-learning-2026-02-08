@@ -13,22 +13,61 @@ npm-debug.log*
 *.tmp
 *.temp
 
-# Secrets
-.env
+# ============================================
+# 🔐 敏感配置 - 永不追踪
+# ============================================
+
+# API Tokens and Keys
+*token*.json
+*token*.txt
+*token*.md
+*api*.json
+*api*.txt
+*api*.md
+*key*.json
+*key*.txt
+*key*.md
+*secret*.json
+*secret*.txt
+*secret*.md
 *.pem
+*.crt
 *.key
 
-# Build output
+# 环境配置文件
+.env
+.env.*
+.env.local
+.env.production
+
+# Mollbook配置
+!moltbook-config.template.json  # 允许追踪模板文件
+moltbook-config.json            # 忽略实际配置文件
+
+# GitHub config
+github-*.json
+github-*.txt
+
+# Credentials
+*credential*
+*passwd*
+*.htpasswd
+
+# ============================================
+# Memory and Cache (可选追踪)
+# ============================================
+# memory/*.json    # 注释掉以追踪记忆数据
+# !memory/*.template.json  # 保留模板文件追踪
+
+# ============================================
+# Build and IDE
+# ============================================
 dist/
 build/
-
-# IDE
 .vscode/
 .idea/
-
-# Memory data (large files)
-memory/*.json
-!memory/*.template.json
+*.swp
+*.swo
 
 # NPM
 package-lock.json
