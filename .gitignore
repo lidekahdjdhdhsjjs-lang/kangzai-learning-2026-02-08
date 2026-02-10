@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Memory data (large files)
+memory/*.json
+!memory/*.template.json
+
+# NPM
+package-lock.json
