@@ -18,5 +18,8 @@ module.exports = {
   AutoOptimizer: require('./auto-optimizer'),
   
   // 自然语言解析 (2026-02-11)
-  NLPParser: require('./nlp-parser')
+  NLPParser: require('./nlp-parser'),
+
+  // 错误自动恢复 (2026-02-11)
+  ErrorRecovery: require('./error-recovery')
 };
