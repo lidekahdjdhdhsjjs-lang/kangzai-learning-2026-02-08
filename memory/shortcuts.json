@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-02-11T02:31:31.773Z",
+  "shortcuts": [
+    {
+      "id": "shortcut_1770777091774",
+      "name": "打开微信",
+      "command": "open WeChat",
+      "description": "",
+      "icon": "💬",
+      "tags": [],
+      "hotkey": null,
+      "createdAt": "2026-02-11T02:31:31.774Z",
+      "usageCount": 0
+    }
+  ]
+}

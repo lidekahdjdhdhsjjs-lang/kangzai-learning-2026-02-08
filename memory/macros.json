@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-02-11T02:31:31.773Z",
+  "macros": [
+    {
+      "id": "test_macro",
+      "name": "微信搜索",
+      "description": "自动检测到的操作序列，共执行3次",
+      "steps": [
+        {
+          "type": "open",
+          "action": "微信"
+        },
+        {
+          "type": "click",
+          "action": "搜索"
+        }
+      ],
+      "metadata": {
+        "createdFrom": "pattern_detection",
+        "occurrences": 3,
+        "createdAt": "2026-02-11T02:31:31.775Z"
+      },
+      "enabled": false,
+      "usageCount": 0
+    }
+  ]
+}

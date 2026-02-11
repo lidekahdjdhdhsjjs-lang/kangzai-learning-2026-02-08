@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-02-11T02:31:31.771Z",
+  "period": "7天",
+  "totalOperations": 5,
+  "typeStats": [
+    {
+      "type": "click",
+      "count": 3,
+      "successCount": 3,
+      "totalDuration": 0,
+      "successRate": "100.0%",
+      "avgDuration": "0ms"
+    },
+    {
+      "type": "type",
+      "count": 1,
+      "successCount": 1,
+      "totalDuration": 0,
+      "successRate": "100.0%",
+      "avgDuration": "0ms"
+    },
+    {
+      "type": "open",
+      "count": 1,
+      "successCount": 1,
+      "totalDuration": 0,
+      "successRate": "100.0%",
+      "avgDuration": "0ms"
+    }
+  ],
+  "timeAnalysis": {
+    "hourly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "byHour": {
+      "10": 5
+    },
+    "byDay": {
+      "周三": 5
+    },
+    "peakHour": {
+      "hour": "10",
+      "count": 5
+    },
+    "peakDay": {
+      "day": "周三",
+      "count": 5
+    }
+  },
+  "successRate": {
+    "total": 5,
+    "success": 5,
+    "failed": 0,
+    "rate": "100.0%"
+  },
+  "frequentActions": [
+    {
+      "type": "click",
+      "action": "确定按钮",
+      "count": 2,
+      "successRate": 0
+    },
+    {
+      "type": "type",
+      "action": "输入文字",
+      "count": 1,
+      "successRate": 0
+    },
+    {
+      "type": "open",
+      "action": "微信",
+      "count": 1,
+      "successRate": 0
+    },
+    {
+      "type": "click",
+      "action": "发送",
+      "count": 1,
+      "successRate": 0
+    }
+  ],
+  "patterns": [],
+  "habits": [
+    {
+      "category": "time",
+      "description": "通常在10点最活跃",
+      "confidence": 1
+    },
+    {
+      "category": "operation",
+      "description": "主要使用click操作",
+      "confidence": 0.6
+    }
+  ],
+  "predictions": [
+    {
+      "type": "activity",
+      "prediction": "当前时段活跃度高于平均",
+      "confidence": 24
+    },
+    {
+      "type": "next_action",
+      "prediction": "最可能执行: click",
+      "confidence": 0.4
+    }
+  ],
+  "suggestions": [],
+  "lastAnalyzed": "2026-02-11T02:31:31.772Z"
+}

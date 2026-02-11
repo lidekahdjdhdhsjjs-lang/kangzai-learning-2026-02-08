@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-02-11T02:31:31.768Z",
+  "operations": [
+    {
+      "id": "op_1770777091769_w8ixrajp9",
+      "type": "click",
+      "action": "确定按钮",
+      "target": "",
+      "duration": 0,
+      "success": true,
+      "timestamp": 1770777091769,
+      "datetime": "2026-02-11T02:31:31.769Z",
+      "hour": 10,
+      "dayOfWeek": 3,
+      "metadata": {}
+    },
+    {
+      "id": "op_1770777091770_3y316zlvm",
+      "type": "click",
+      "action": "确定按钮",
+      "target": "",
+      "duration": 0,
+      "success": true,
+      "timestamp": 1770777091770,
+      "datetime": "2026-02-11T02:31:31.770Z",
+      "hour": 10,
+      "dayOfWeek": 3,
+      "metadata": {}
+    },
+    {
+      "id": "op_1770777091770_kxzd03wzw",
+      "type": "type",
+      "action": "输入文字",
+      "target": "",
+      "duration": 0,
+      "success": true,
+      "timestamp": 1770777091770,
+      "datetime": "2026-02-11T02:31:31.770Z",
+      "hour": 10,
+      "dayOfWeek": 3,
+      "metadata": {}
+    },
+    {
+      "id": "op_1770777091770_cayv9vkb7",
+      "type": "open",
+      "action": "微信",
+      "target": "",
+      "duration": 0,
+      "success": true,
+      "timestamp": 1770777091770,
+      "datetime": "2026-02-11T02:31:31.770Z",
+      "hour": 10,
+      "dayOfWeek": 3,
+      "metadata": {}
+    },
+    {
+      "id": "op_1770777091771_786jpbp6q",
+      "type": "click",
+      "action": "发送",
+      "target": "",
+      "duration": 0,
+      "success": true,
+      "timestamp": 1770777091771,
+      "datetime": "2026-02-11T02:31:31.771Z",
+      "hour": 10,
+      "dayOfWeek": 3,
+      "metadata": {}
+    }
+  ]
+}

@@ -21,5 +21,11 @@ module.exports = {
   NLPParser: require('./nlp-parser'),
 
   // 错误自动恢复 (2026-02-11)
-  ErrorRecovery: require('./error-recovery')
+  ErrorRecovery: require('./error-recovery'),
+
+  // 操作历史分析 (2026-02-11)
+  OperationAnalyzer: require('./operation-analyzer'),
+
+  // 自动快捷生成 (2026-02-11)
+  AutoShortcut: require('./auto-shortcut')
 };
