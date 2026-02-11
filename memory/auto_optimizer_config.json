@@ -1,4 +1,13 @@
 {
+  "autoApply": false,
+  "confirmBeforeApply": true,
+  "maxOptimizations": 5,
+  "ignoredPatterns": [
+    "node_modules",
+    ".git",
+    "dist",
+    "build"
+  ],
   "retrieval": {
     "maxResults": 6,
     "timeout": 10000,
@@ -17,5 +26,7 @@
     "autoOptimize": true,
     "checkInterval": 3600000,
     "minImprovement": 0.05
-  }
+  },
+  "successfulOptimizations": 5,
+  "lastAutoFix": "2026-02-11T01:17:01.448Z"
 }

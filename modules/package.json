@@ -1,0 +1,24 @@
+{
+  "name": "kangzai-modules",
+  "version": "1.0.0",
+  "description": "康仔核心模块 - OCR、图像匹配、自动优化",
+  "main": "modules/index.js",
+  "scripts": {
+    "test": "node test-all.js",
+    "test:ocr": "node -e \"require('./modules/ocr').OCRCLI.run(['help'])\"",
+    "test:image": "node -e \"require('./modules/image-matcher').ImageMatcherCLI.run(['help'])\"",
+    "test:opt": "node -e \"require('./modules/optimization-history').OptimizationHistoryCLI.run(['summary'])\"",
+    "test:auto": "node -e \"require('./modules/auto-optimizer').AutoOptimizerCLI.run(['help'])\""
+  },
+  "dependencies": {
+    "tesseract.js": "^5.0.0"
+  },
+  "keywords": [
+    "ocr",
+    "image-matching",
+    "automation",
+    "optimization"
+  ],
+  "author": "Kangzai",
+  "license": "MIT"
+}

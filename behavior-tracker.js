@@ -20,7 +20,7 @@ class BehaviorTracker {
         return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
       }
     } catch (e) {
-      console.log('📝 新建行为追踪数据');
+      // 已移除
     }
     return {
       sessions: [],          // 会话记录
@@ -48,7 +48,7 @@ class BehaviorTracker {
     });
     this.data.lastActive = new Date().toISOString();
     this.save();
-    console.log(`✅ 会话记录: ${channel}, ${duration}秒`);
+    // 已移除
   }
 
   /**
@@ -76,7 +76,7 @@ class BehaviorTracker {
     this.data.lastActive = timestamp;
     this.save();
     
-    console.log(`✅ 查询记录: [${type}] ${query.substring(0, 30)}...`);
+    // 已移除}...`);
   }
 
   /**
@@ -176,29 +176,29 @@ class BehaviorTracker {
 
 // CLI测试
 async function main() {
-  console.log('�追踪器测试\n');
+  // 已移除
   
   const tracker = new BehaviorTracker();
   
   // 模拟一些数据
-  console.log('📊 统计信息:', tracker.getStats());
+  // 已移除);
   
-  console.log('\n🔮 需求预测:');
-  console.log(JSON.stringify(tracker.predictNeeds(), null, 2));
+  // 已移除
+  // 已移除, null, 2));
   
-  console.log('\n🕐 活跃时段:');
-  console.log(tracker.getActiveHours());
+  // 已移除
+  // 已移除);
   
-  console.log('\n📈 常见查询:');
-  console.log(tracker.getFrequentTypes());
+  // 已移除
+  // 已移除);
   
   // 记录测试查询
-  console.log('\n📝 记录测试查询...');
+  // 已移除
   tracker.recordQuery('今天学习了什么', 'learning', ['AI', 'memory']);
   tracker.recordQuery('播放音乐', 'music', ['entertainment']);
   tracker.recordQuery('GitHub趋势', 'github', ['tech', 'trending']);
   
-  console.log('\n✅ 测试完成');
+  // 已移除
 }
 
 module.exports = { BehaviorTracker };

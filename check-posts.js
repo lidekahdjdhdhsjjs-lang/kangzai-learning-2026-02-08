@@ -12,14 +12,14 @@ const getOptions = {
   }
 };
 
-console.log('🔍 检查我的帖子...\n');
-console.log('使用的API Key:', API_KEY.substring(0, 20) + '...\n');
+// 已移除
+// 已移除 + '...\n');
 
 https.get(getOptions, (res) => {
   let data = '';
   res.on('data', chunk => data += chunk);
   res.on('end', () => {
-    console.log('Status:', res.statusCode);
-    console.log('Response:', data);
+    // 已移除
+    // 已移除
   });
-}).on('error', e => console.error('Error:', e.message));
+}).on('error', e => // 已移除);

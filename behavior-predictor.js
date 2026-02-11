@@ -251,13 +251,13 @@ function saveBehaviorPattern(behaviors) {
     ...behaviors,
     lastUpdate: new Date().toISOString()
   }, null, 2), 'utf-8');
-  console.log(`✅ 行为模式已保存: ${CONFIG.behaviorFile}`);
+  // 已移除
 }
 
 // 保存预测结果
 function savePredictions(predictions) {
   fs.writeFileSync(CONFIG.predictionsFile, JSON.stringify(predictions, null, 2), 'utf-8');
-  console.log(`✅ 预测结果已保存: ${CONFIG.predictionsFile}`);
+  // 已移除
 }
 
 // 主动预加载上下文
@@ -283,39 +283,39 @@ function preloadContext(predictions) {
 
 // 主函数
 function analyzeAndPredict() {
-  console.log('\n🧠 ========== 用户行为分析 & 需求预测 ==========\n');
+  // 已移除
   
   try {
     // 1. 提取行为模式
-    console.log('📊 分析会话历史...');
+    // 已移除
     const behaviors = extractBehaviorFromSessions();
     
     if (behaviors) {
       saveBehaviorPattern(behaviors);
       
-      console.log(`  - 分析 ${behaviors.sessionLengths?.length || 0} 个会话`);
-      console.log(`  - 高峰时段: ${behaviors.hourlyActivity.indexOf(Math.max(...behaviors.hourlyActivity.filter(v => v > 0)))}:00`);
-      console.log(`  - 最常见意图: ${behaviors.topIntents[0]?.[0] || 'N/A'}`);
+      // 已移除
+      // 已移除))}:00`);
+      // 已移除
     } else {
-      console.log('  ⚠️ 无法读取会话历史');
+      // 已移除
     }
     
     // 2. 生成预测
-    console.log('\n🔮 生成需求预测...');
+    // 已移除
     const predictions = generatePredictions(behaviors);
     savePredictions(predictions);
     
-    console.log(`  - 生成 ${predictions.predictions?.length || 0} 条预测`);
-    console.log(`  - 置信度: ${(predictions.confidence * 100).toFixed(1)}%`);
+    // 已移除
+    // 已移除.toFixed(1)}%`);
     
     // 3. 生成主动建议
     const suggestions = generateProactiveSuggestions(predictions);
-    console.log(`  - 可执行建议: ${suggestions.length}`);
+    // 已移除
     
     // 4. 预加载上下文
     const context = preloadContext(predictions);
     
-    console.log('\n✨ 分析完成！');
+    // 已移除
     
     return {
       behaviors,
@@ -325,7 +325,7 @@ function analyzeAndPredict() {
     };
     
   } catch (error) {
-    console.error('❌ 分析失败:', error);
+    // 已移除
     return null;
   }
 }

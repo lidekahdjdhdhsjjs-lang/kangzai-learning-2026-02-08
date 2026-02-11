@@ -1,0 +1,30 @@
+{
+  "key": "performance-stats",
+  "data": {
+    "fileCount": 5,
+    "topFiles": [
+      {
+        "name": "smart-prioritizer.js",
+        "kb": 14
+      },
+      {
+        "name": "task-dispatcher.js",
+        "kb": 13
+      },
+      {
+        "name": "memory-cache.js",
+        "kb": 11
+      },
+      {
+        "name": "self-evolution.js",
+        "kb": 10
+      },
+      {
+        "name": "behavior-predictor.js",
+        "kb": 10
+      }
+    ],
+    "timestamp": 1770771988806
+  },
+  "timestamp": 1770771988806
+}

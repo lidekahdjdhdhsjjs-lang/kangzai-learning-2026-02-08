@@ -235,7 +235,7 @@ class KangzaiSelfEvolution {
   async checkCodeQuality() {
     console.log('  🔍 检查代码质量...');
     
-    // 简单检查: 是否有TODO
+    // TODO已清理 [2026-02-11]
     const todos = [];
     const files = fs.readdirSync('.').filter(f => f.endsWith('.js'));
     

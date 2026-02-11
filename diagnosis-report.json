@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-02-11T01:06:59.261Z",
+  "duration": 445,
+  "checks": {
+    "processes": {
+      "status": "stopped",
+      "details": {
+        "category": "processes",
+        "items": [
+          {
+            "name": "self-evolution",
+            "file": "self-evolution.js",
+            "running": false
+          },
+          {
+            "name": "kangzai-watcher",
+            "file": "kangzai-watcher.js",
+            "running": false
+          },
+          {
+            "name": "cursor-monitor",
+            "skill": true,
+            "running": false
+          }
+        ],
+        "status": "stopped"
+      }
+    },
+    "memory": {
+      "status": "healthy",
+      "details": {
+        "category": "memory",
+        "daily": 0,
+        "learn": 81,
+        "skills": 0,
+        "total": 91,
+        "status": "healthy"
+      }
+    },
+    "skills": {
+      "status": "healthy",
+      "details": {
+        "category": "skills",
+        "items": [
+          {
+            "name": "ctxport",
+            "path": "C:\\Users\\lidek\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\ctxport",
+            "installed": true,
+            "configured": true
+          },
+          {
+            "name": "cursor-monitor",
+            "path": "C:\\Users\\lidek\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\cursor-monitor",
+            "installed": true,
+            "configured": true
+          },
+          {
+            "name": "automation",
+            "path": "C:\\Users\\lidek\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\automation",
+            "installed": true,
+            "configured": true
+          },
+          {
+            "name": "super-automation",
+            "path": "C:\\Users\\lidek\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\super-automation",
+            "installed": true,
+            "configured": true
+          }
+        ],
+        "status": "healthy"
+      }
+    },
+    "github": {
+      "status": "connected",
+      "details": {
+        "category": "github",
+        "status": "connected",
+        "lastCommit": "Wed Feb 11 00:36:40 2026 +0800",
+        "statusType": "healthy"
+      }
+    },
+    "codeQuality": {
+      "status": "warning",
+      "details": {
+        "category": "codeQuality",
+        "files": 34,
+        "lines": 1353,
+        "todos": 14,
+        "issues": [
+          {
+            "file": "clean-todos.js",
+            "count": 12
+          },
+          {
+            "file": "github-push.js",
+            "count": 2
+          }
+        ],
+        "status": "warning"
+      }
+    }
+  }
+}

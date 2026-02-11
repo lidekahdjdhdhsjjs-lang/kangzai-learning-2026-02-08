@@ -40,7 +40,7 @@ function generateBriefReport() {
  * 运行快速学习扫描
  */
 async function quickScan() {
-  console.log('🔍 快速扫描...\n');
+  // 已移除
   
   // 简单扫描GitHub Trending
   const reports = fs.readdirSync(REPORT_DIR).slice(-5);
@@ -96,7 +96,7 @@ function formatReportMessage(scanResult) {
  * 主函数 - 运行一次汇报
  */
 async function runReport() {
-  console.log('\n📊 ===== 康仔20分钟学习汇报 =====\n');
+  // 已移除
   
   try {
     // 快速扫描
@@ -111,12 +111,12 @@ async function runReport() {
     // 格式化消息
     const message = formatReportMessage(scanResult);
     
-    console.log(message);
-    console.log(`\n✅ 汇报完成，保存到: ${filename}`);
+    // 已移除
+    // 已移除
     
     return message;
   } catch (error) {
-    console.error('❌ 汇报失败:', error.message);
+    // 已移除
     return null;
   }
 }

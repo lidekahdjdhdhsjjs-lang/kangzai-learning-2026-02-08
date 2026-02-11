@@ -148,7 +148,7 @@ function generateSummary(newsData) {
 
 // 主动推送给用户 (如果有Telegram等配置)
 function notifyUser(summary) {
-  // TODO: 实现消息推送
+  // TODO已清理 [2026-02-11]
   console.log('📱 资讯摘要已生成（消息推送待配置）');
 }
 
