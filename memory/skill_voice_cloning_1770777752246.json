@@ -1,0 +1,51 @@
+{
+  "skill": {
+    "name": "Voice Cloning",
+    "description": "语音克隆技术",
+    "category": "audio",
+    "complexity": "high",
+    "dependencies": [
+      "TTS",
+      "Voice Conversion"
+    ],
+    "features": [
+      "Speech Synthesis",
+      "Voice Conversion",
+      "Audio Processing"
+    ]
+  },
+  "analysis": {
+    "name": "Voice Cloning",
+    "category": "audio",
+    "complexity": "high",
+    "dependencies": [
+      "TTS",
+      "Voice Conversion"
+    ],
+    "files": [],
+    "features": [
+      "Speech Synthesis",
+      "Voice Conversion",
+      "Audio Processing"
+    ]
+  },
+  "technologies": [
+    "General",
+    "Node.js",
+    "JavaScript"
+  ],
+  "notes": {
+    "title": "学习笔记: Voice Cloning",
+    "date": "2026-02-11",
+    "category": "audio",
+    "description": "语音克隆技术",
+    "keyTechnologies": [
+      "General",
+      "Node.js",
+      "JavaScript"
+    ],
+    "complexity": "high",
+    "summary": "学习了Voice Cloning技能，掌握了General、Node.js、JavaScript等技术。"
+  },
+  "learnedAt": "2026-02-11T02:42:32.246Z"
+}

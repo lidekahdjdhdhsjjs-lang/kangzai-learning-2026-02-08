@@ -1,0 +1,51 @@
+{
+  "skill": {
+    "name": "Document Processing",
+    "description": "文档处理",
+    "category": "productivity",
+    "complexity": "medium",
+    "dependencies": [
+      "PDF.js",
+      "OCR"
+    ],
+    "features": [
+      "PDF Parsing",
+      "Text Extraction",
+      "Format Conversion"
+    ]
+  },
+  "analysis": {
+    "name": "Document Processing",
+    "category": "productivity",
+    "complexity": "medium",
+    "dependencies": [
+      "PDF.js",
+      "OCR"
+    ],
+    "files": [],
+    "features": [
+      "PDF Parsing",
+      "Text Extraction",
+      "Format Conversion"
+    ]
+  },
+  "technologies": [
+    "General",
+    "Node.js",
+    "JavaScript"
+  ],
+  "notes": {
+    "title": "学习笔记: Document Processing",
+    "date": "2026-02-11",
+    "category": "productivity",
+    "description": "文档处理",
+    "keyTechnologies": [
+      "General",
+      "Node.js",
+      "JavaScript"
+    ],
+    "complexity": "medium",
+    "summary": "学习了Document Processing技能，掌握了General、Node.js、JavaScript等技术。"
+  },
+  "learnedAt": "2026-02-11T02:42:34.280Z"
+}

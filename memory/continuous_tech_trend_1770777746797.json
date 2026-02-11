@@ -1,0 +1,14 @@
+{
+  "type": "tech_trend",
+  "data": {
+    "topic": "Memory Systems",
+    "category": "memory",
+    "keywords": [
+      "vector",
+      "embedding",
+      "retrieval"
+    ],
+    "timestamp": 1770777746797
+  },
+  "timestamp": 1770777746797
+}

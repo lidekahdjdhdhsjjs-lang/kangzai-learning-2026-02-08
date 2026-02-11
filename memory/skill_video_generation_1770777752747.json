@@ -1,0 +1,51 @@
+{
+  "skill": {
+    "name": "Video Generation",
+    "description": "AI视频生成",
+    "category": "video",
+    "complexity": "high",
+    "dependencies": [
+      "Diffusion Models",
+      "GANs"
+    ],
+    "features": [
+      "Frame Generation",
+      "Motion Synthesis",
+      "Video Editing"
+    ]
+  },
+  "analysis": {
+    "name": "Video Generation",
+    "category": "video",
+    "complexity": "high",
+    "dependencies": [
+      "Diffusion Models",
+      "GANs"
+    ],
+    "files": [],
+    "features": [
+      "Frame Generation",
+      "Motion Synthesis",
+      "Video Editing"
+    ]
+  },
+  "technologies": [
+    "General",
+    "Node.js",
+    "JavaScript"
+  ],
+  "notes": {
+    "title": "学习笔记: Video Generation",
+    "date": "2026-02-11",
+    "category": "video",
+    "description": "AI视频生成",
+    "keyTechnologies": [
+      "General",
+      "Node.js",
+      "JavaScript"
+    ],
+    "complexity": "high",
+    "summary": "学习了Video Generation技能，掌握了General、Node.js、JavaScript等技术。"
+  },
+  "learnedAt": "2026-02-11T02:42:32.747Z"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "open_source",
+  "data": {
+    "name": "Ollama",
+    "description": "本地LLM运行",
+    "category": "llm",
+    "timestamp": 1770777746798
+  },
+  "timestamp": 1770777746798
+}

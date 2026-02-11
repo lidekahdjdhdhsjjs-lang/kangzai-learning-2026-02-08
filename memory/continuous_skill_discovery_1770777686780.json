@@ -1,0 +1,10 @@
+{
+  "type": "skill_discovery",
+  "data": {
+    "name": "voice cloning",
+    "description": "语音克隆技术",
+    "category": "audio",
+    "timestamp": 1770777686780
+  },
+  "timestamp": 1770777686780
+}

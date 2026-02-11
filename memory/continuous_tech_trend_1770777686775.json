@@ -1,0 +1,14 @@
+{
+  "type": "tech_trend",
+  "data": {
+    "topic": "Local LLM",
+    "category": "llm",
+    "keywords": [
+      "ollama",
+      "llama.cpp",
+      "local"
+    ],
+    "timestamp": 1770777686775
+  },
+  "timestamp": 1770777686775
+}

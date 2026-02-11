@@ -1,0 +1,55 @@
+{
+  "skill": {
+    "name": "Code Explanation",
+    "description": "代码解释器",
+    "category": "coding",
+    "complexity": "medium",
+    "dependencies": [
+      "AST Parsing",
+      "LLM"
+    ],
+    "features": [
+      "Code Analysis",
+      "Documentation",
+      "Comment Generation"
+    ]
+  },
+  "analysis": {
+    "name": "Code Explanation",
+    "category": "coding",
+    "complexity": "medium",
+    "dependencies": [
+      "AST Parsing",
+      "LLM"
+    ],
+    "files": [],
+    "features": [
+      "Code Analysis",
+      "Documentation",
+      "Comment Generation"
+    ]
+  },
+  "technologies": [
+    "AST",
+    "Parser",
+    "Code Analysis",
+    "Node.js",
+    "JavaScript"
+  ],
+  "notes": {
+    "title": "学习笔记: Code Explanation",
+    "date": "2026-02-11",
+    "category": "coding",
+    "description": "代码解释器",
+    "keyTechnologies": [
+      "AST",
+      "Parser",
+      "Code Analysis",
+      "Node.js",
+      "JavaScript"
+    ],
+    "complexity": "medium",
+    "summary": "学习了Code Explanation技能，掌握了AST、Parser、Code Analysis、Node.js、JavaScript等技术。"
+  },
+  "learnedAt": "2026-02-11T02:42:33.253Z"
+}
