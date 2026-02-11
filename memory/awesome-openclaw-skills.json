@@ -1,0 +1,273 @@
+{
+  "source": "https://github.com/VoltAgent/awesome-openclaw-skills",
+  "title": "Awesome OpenClaw Skills - 精选技能库",
+  "fetchedAt": "2026-02-11T14:47:00.000Z",
+  "description": "OpenClaw社区构建的2999个精选技能集合，按类别组织，来自ClawHub公开技能注册表",
+  "totalSkills": 2999,
+  "sourceRegistry": 5705,
+  "lastUpdated": "2026-02-07",
+  "categories": {
+    "Coding Agents & IDEs": {
+      "count": 133,
+      "priority": "high",
+      "description": "编码代理和IDE工具",
+      "keySkills": [
+        {
+          "name": "agent-council",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/itsahedge/agent-council/SKILL.md",
+          "description": "Complete toolkit for creating autonomous AI agents and managing"
+        },
+        {
+          "name": "agentlens",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/nguyenphutrong/agentlens/SKILL.md",
+          "description": "Navigate and understand codebases using agentlens hierarchical"
+        },
+        {
+          "name": "buildlog",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/espetey/buildlog/SKILL.md",
+          "description": "Record, export, and share your AI coding sessions as replayable buildlogs"
+        },
+        {
+          "name": "coding-agent",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/steipete/coding-agent/SKILL.md",
+          "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent"
+        },
+        {
+          "name": "cursor-agent",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/swiftlysingh/cursor-agent/SKILL.md",
+          "description": "A comprehensive skill for using the Cursor CLI agent"
+        },
+        {
+          "name": "evolver",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/evolver/SKILL.md",
+          "description": "A self-evolution engine for AI agents"
+        },
+        {
+          "name": "cognitive-memory",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/icemilo414/cognitive-memory/SKILL.md",
+          "description": "Intelligent multi-store memory system with human-like"
+        }
+      ]
+    },
+    "AI & LLMs": {
+      "count": 287,
+      "priority": "high",
+      "description": "AI和大型语言模型",
+      "keySkills": [
+        {
+          "name": "kimi-integration",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/evgyur/kimi-integration/SKILL.md",
+          "description": "Step-by-step guide for integrating Moonshot AI (Kimi)"
+        },
+        {
+          "name": "rationality",
+          "url": "https://github.com/openclaw/skills/tree/main/skills/xertrov/rationality/SKILL.md",
+          "description": "The Rationality skill provides a structured framework for thinking"
+        }
+      ]
+    },
+    "Search & Research": {
+      "count": 253,
+      "priority": "high",
+      "description": "搜索和研究工具",
+      "keySkills": []
+    },
+    "Productivity & Tasks": {
+      "count": 134,
+      "priority": "high",
+      "description": "生产力工具和任务管理",
+      "keySkills": []
+    },
+    "Browser & Automation": {
+      "count": 139,
+      "priority": "medium",
+      "description": "浏览器自动化",
+      "keySkills": []
+    },
+    "Communication": {
+      "count": 133,
+      "priority": "medium",
+      "description": "通讯工具",
+      "keySkills": []
+    },
+    "Marketing & Sales": {
+      "count": 145,
+      "priority": "medium",
+      "description": "营销和销售",
+      "keySkills": []
+    },
+    "DevOps & Cloud": {
+      "count": 212,
+      "priority": "medium",
+      "description": "DevOps和云服务",
+      "keySkills": []
+    },
+    "Web & Frontend Development": {
+      "count": 201,
+      "priority": "medium",
+      "description": "Web和前端开发",
+      "keySkills": []
+    },
+    "Notes & PKM": {
+      "count": 100,
+      "priority": "medium",
+      "description": "笔记和个人知识管理",
+      "keySkills": []
+    },
+    "Media & Streaming": {
+      "count": 80,
+      "priority": "low",
+      "description": "媒体和流媒体",
+      "keySkills": []
+    },
+    "Transportation": {
+      "count": 73,
+      "priority": "low",
+      "description": "交通出行",
+      "keySkills": []
+    },
+    "PDF & Documents": {
+      "count": 67,
+      "priority": "low",
+      "description": "PDF和文档处理",
+      "keySkills": []
+    },
+    "Speech & Transcription": {
+      "count": 66,
+      "priority": "low",
+      "description": "语音和转录",
+      "keySkills": []
+    },
+    "Git & GitHub": {
+      "count": 66,
+      "priority": "medium",
+      "description": "Git和GitHub操作",
+      "keySkills": []
+    },
+    "Image & Video Generation": {
+      "count": 60,
+      "priority": "medium",
+      "description": "图像和视频生成",
+      "keySkills": []
+    },
+    "Smart Home & IoT": {
+      "count": 56,
+      "priority": "low",
+      "description": "智能家居和IoT",
+      "keySkills": []
+    },
+    "Personal Development": {
+      "count": 56,
+      "priority": "low",
+      "description": "个人发展",
+      "keySkills": []
+    },
+    "Shopping & E-commerce": {
+      "count": 51,
+      "priority": "low",
+      "description": "购物和电商",
+      "keySkills": []
+    },
+    "Calendar & Scheduling": {
+      "count": 51,
+      "priority": "medium",
+      "description": "日历和日程安排",
+      "keySkills": []
+    },
+    "Moltbook": {
+      "count": 51,
+      "priority": "low",
+      "description": "Moltbook社交网络",
+      "keySkills": []
+    },
+    "Data & Analytics": {
+      "count": 46,
+      "priority": "medium",
+      "description": "数据和分析",
+      "keySkills": []
+    },
+    "Apple Apps & Services": {
+      "count": 35,
+      "priority": "low",
+      "description": "Apple应用和服务",
+      "keySkills": []
+    },
+    "Security & Passwords": {
+      "count": 62,
+      "priority": "medium",
+      "description": "安全和密码",
+      "keySkills": []
+    },
+    "Gaming": {
+      "count": 62,
+      "priority": "low",
+      "description": "游戏",
+      "keySkills": []
+    },
+    "Health & Fitness": {
+      "count": 55,
+      "priority": "low",
+      "description": "健康和健身",
+      "keySkills": []
+    },
+    "Self-Hosted & Automation": {
+      "count": 25,
+      "priority": "low",
+      "description": "自托管和自动化",
+      "keySkills": []
+    },
+    "Finance": {
+      "count": 22,
+      "priority": "low",
+      "description": "财务",
+      "keySkills": []
+    },
+    "Agent-to-Agent Protocols": {
+      "count": 19,
+      "priority": "medium",
+      "description": "代理间协议",
+      "keySkills": []
+    },
+    "CLI Utilities": {
+      "count": 131,
+      "priority": "medium",
+      "description": "CLI工具",
+      "keySkills": []
+    },
+    "iOS & macOS Development": {
+      "count": 17,
+      "priority": "low",
+      "description": "iOS和macOS开发",
+      "keySkills": []
+    },
+    "Clawdbot Tools": {
+      "count": 121,
+      "priority": "low",
+      "description": "Clawdbot工具",
+      "keySkills": []
+    }
+  },
+  "filters": {
+    "totalExcluded": 2748,
+    "spam": 1180,
+    "cryptoFinance": 672,
+    "duplicates": 492,
+    "malicious": 396,
+    "nonEnglish": 8
+  },
+  "installation": {
+    "cli": "npx clawhub@latest install <skill-slug>",
+    "manual": {
+      "global": "~/.openclaw/skills/",
+      "workspace": "<project>/skills/"
+    },
+    "alternative": "Paste GitHub repo link directly into chat"
+  },
+  "usageNotes": [
+    "Skills are sourced from ClawHub (OpenClaw's public skills registry)",
+    "Skills follow Anthropic's Agent Skill convention",
+    "Check VirusTotal report before installing",
+    "Review source code before using",
+    "Workspace > Local > Bundled priority"
+  ]
+}
