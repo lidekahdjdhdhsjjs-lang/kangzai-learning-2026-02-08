@@ -15,5 +15,8 @@ module.exports = {
   OptimizationHistory: require('./optimization-history'),
   
   // 自动优化
-  AutoOptimizer: require('./auto-optimizer')
+  AutoOptimizer: require('./auto-optimizer'),
+  
+  // 自然语言解析 (2026-02-11)
+  NLPParser: require('./nlp-parser')
 };
